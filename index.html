@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/font-awesome.min.css">
-
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Online Film</title>
-</head>
-<body>
-    <div id="player">
-        <div class="js-video-container" style=""></div>
-        <div class="buttons">
-            <button class="js-play-button">
-                <i class="fa fa-play" aria-hidden="true"></i>
-            </button>
-            <button class="js-pause-button"> 
-                <i class="fa fa-pause" aria-hidden="true"></i>
-            </button>
-            <button class="js-volume-button"> 
-                <i class="fa fa-volume-off" aria-hidden="true"></i>
-            </button>
-            <button class="js-mute-button"> 
-                <i class="fa fa-volume-up" aria-hidden="true"></i>
-            </button>
-            <div class="space"></div>
-            <button class="js-fullscreen-button"> 
-                <i class="fa fa-expand" aria-hidden="true"></i>
-            </button>
-
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/font-awesome.min.css" />
+        <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" sizes="32x32">
+        <link rel="stylesheet" href="assets/style.css" />
+        <title>Online Film</title>
+    </head>
+    <body>
+        <div id="player" class="player-widget">
+            <div class="js-video-container video-container"></div>
+            <div class="buttons-container">
+                <button class="js-play-button player-control-button">
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                </button>
+                <button class="js-pause-button player-control-button">
+                    <i class="fa fa-pause" aria-hidden="true"></i>
+                </button>
+                <button class="js-volume-button player-control-button">
+                    <i class="fa fa-volume-off" aria-hidden="true"></i>
+                </button>
+                <button class="js-mute-button player-control-button">
+                    <i class="fa fa-volume-up" aria-hidden="true"></i>
+                </button>
+                <div class="space-filler"></div>
+                <button class="js-fullscreen-button player-control-button">
+                    <i class="fa fa-expand" aria-hidden="true"></i>
+                </button>
+            </div>
         </div>
-    </div>
-    
 
-    <!-- Ресурсы -->
-    <script src="assets/jquery-3.5.1.min.js"></script>
-    <script src="assets/playable-2.10.3.js"></script>
-    <script src="assets/player.js"></script>
-    
-    <script src="assets/script.js">
-      
-    </script>
-</body>
+        <!-- Ресурсы -->
+        <script src="assets/jquery-3.5.1.min.js"></script>
+        <script src="assets/playable-2.10.3.js"></script>
+        <script src="assets/player.js"></script>
+
+        <script src="assets/script.js"></script>
+    </body>
 </html>
