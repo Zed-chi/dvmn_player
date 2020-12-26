@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
         <link rel="stylesheet" href="assets/font-awesome.min.css" />
-        <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32">
-        <link rel="stylesheet" href="assets/style.css" />
+        <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" sizes="32x32">
+        <link rel="stylesheet" href="./assets/style.css" />
         <title>Online Film</title>
     </head>
     <body>
@@ -24,10 +25,17 @@
                 <button class="js-mute-button player-control-button">
                     <i class="fa fa-volume-up" aria-hidden="true"></i>
                 </button>
-                <div class="space-filler"></div>
+                <div class="progress-container">                    
+                    <span class="js-current-time player-time" ></span>
+                    <div class="js-progress progress-bar" style="background-color: black;">
+                        <div class="js-progress-slider progress-slider" style="background-color: red;"></div>
+                        <div class="progress-point"></div>
+                    </div>
+                    <span class="js-duration player-time"></span>                                                            
+                </div>
                 <button class="js-fullscreen-button player-control-button">
                     <i class="fa fa-expand" aria-hidden="true"></i>
-                </button>
+                </button>                
             </div>
         </div>
 
