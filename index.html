@@ -10,40 +10,39 @@
         <title>Online Film</title>
     </head>
     <body>
-        <div id="player" class="player-widget">
-            <div class="js-video-container video-container"></div>
-            <div class="buttons-container">
-                <button class="js-play-button player-control-button">
-                    <i class="fa fa-play" aria-hidden="true"></i>
-                </button>
-                <button class="js-pause-button player-control-button">
-                    <i class="fa fa-pause" aria-hidden="true"></i>
-                </button>
-                <button class="js-volume-button player-control-button">
-                    <i class="fa fa-volume-off" aria-hidden="true"></i>
-                </button>
-                <button class="js-mute-button player-control-button">
-                    <i class="fa fa-volume-up" aria-hidden="true"></i>
-                </button>
-                <div class="progress-container">                    
-                    <span class="js-current-time player-time" ></span>
-                    <div class="js-progress progress-bar" style="background-color: black;">
-                        <div class="js-progress-slider progress-slider" style="background-color: red;"></div>
-                        <div class="progress-point"></div>
-                    </div>
-                    <span class="js-duration player-time"></span>                                                            
+    <div id="player" class="player-widget">
+        <div class="js-video-container video-container"></div>
+        <div class="buttons-container">
+            <button class="js-play-button player-control-button">
+                <i class="fa fa-play" aria-hidden="true"></i>
+            </button>
+            <button class="js-pause-button player-control-button">
+                <i class="fa fa-pause" aria-hidden="true"></i>
+            </button>
+            <button class="js-volume-button player-control-button">
+                <i class="fa fa-volume-off" aria-hidden="true"></i>
+            </button>
+            <button class="js-mute-button player-control-button">
+                <i class="fa fa-volume-up" aria-hidden="true"></i>
+            </button>
+            <div class="progress-container">
+                <span class="js-current-time player-time"></span>
+                <div class="js-progress progress-bar">
+                    <div class="js-progress-slider progress-slider"></div>
+                    <div class="progress-point"></div>
                 </div>
-                <button class="js-fullscreen-button player-control-button">
-                    <i class="fa fa-expand" aria-hidden="true"></i>
-                </button>                
+                <span class="js-duration player-time"></span>
             </div>
+            <button class="js-fullscreen-button player-control-button">
+                <i class="fa fa-expand" aria-hidden="true"></i>
+            </button>
         </div>
+    </div>
 
-        <!-- Ресурсы -->
-        <script src="assets/jquery-3.5.1.min.js"></script>
-        <script src="assets/playable-2.10.3.js"></script>
-        <script src="assets/player.js"></script>
-
-        <script src="assets/script.js"></script>
+    <!-- Ресурсы -->
+    <script src="assets/jquery-3.5.1.min.js"></script>
+    <script src="assets/playable-2.10.3.js"></script>
+    <script src="assets/player.js"></script>
+    <script src="assets/script.js"></script>
     </body>
 </html>
